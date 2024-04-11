@@ -1,10 +1,7 @@
 package org.example.Task1;
-
 import java.util.Scanner;
-
 public class Task1 {
     public static void main(String[] args) {
-
         Scanner console = new Scanner(System.in);
         int x = Short.MAX_VALUE;
         int n = 1;
