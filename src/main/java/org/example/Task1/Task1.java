@@ -1,9 +1,10 @@
-package org.example;
+package org.example.Task1;
 
 import java.util.Scanner;
 
-public class Main {
+public class Task1 {
     public static void main(String[] args) {
+
         Scanner console = new Scanner(System.in);
         int x = Short.MAX_VALUE;
         int n = 1;
@@ -18,8 +19,8 @@ public class Main {
             x--;
             n++;
         }
-
         x = Short.MAX_VALUE;                   //вывод имен по порядку с 1 по n
+        System.out.println("Список участников:");
         while (n > 1) {
 
             System.out.println(name[x]);
@@ -28,7 +29,5 @@ public class Main {
         }
     }
 }
-
-
 
 
