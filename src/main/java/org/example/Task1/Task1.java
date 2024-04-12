@@ -19,10 +19,9 @@ public class Task1 {
         }
         x = Short.MAX_VALUE;                   //вывод имен по порядку с 1 по n
         System.out.println("Список участников:");
-        while (n > 1) {
+        for (; n > 1; n--) {
             System.out.println(name[x]);
             x--;
-            n--;
         }
     }
 }
